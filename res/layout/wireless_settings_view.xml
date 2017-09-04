@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twowing.routeconfig.wireless.EthernetPPPoEView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/wireless_username_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/wireless_username_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="4"
+            android:gravity="left|center"
+            android:text="@string/pppoe_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textview_select" />
+
+        <EditText
+            android:id="@+id/wireless_username_editText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_line" />
+
+    <LinearLayout
+        android:id="@+id/wireless_passworld_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/wireless_password_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="4"
+            android:gravity="left|center"
+            android:text="@string/pppoe_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textview_select" />
+
+        <!-- android:background="@drawable/base_btn_selected" -->
+
+        <EditText
+            android:id="@+id/wireless_passworld_editText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/base_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/wireless_settings_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/settings_bt_selector"
+            android:gravity="center"
+            android:text="保存"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textview_select" />
+
+        <Button
+            android:id="@+id/wireless_settings_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/settings_bt_selector"
+            android:gravity="center"
+            android:text="取消"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textview_select" />
+    </LinearLayout>
+
+</com.twowing.routeconfig.wireless.EthernetPPPoEView>

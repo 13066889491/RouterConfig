@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/settings_dialog_all_view" >
+
+        <RelativeLayout
+            android:id="@+id/settings_dialog_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/settings_dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/pppoe_settings"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/return_bar_text_pressed_color" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/base_line" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/wireless_setting_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/settings_dialog_view"
+            layout="@layout/wireless_settings_view"
+            android:background="@drawable/settings_list_item_selector" />
+    </RelativeLayout>
+
+</ScrollView>

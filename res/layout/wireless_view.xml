@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twowing.routeconfig.wireless.WirelessSettingsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wireless_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/wireless_settings_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/wireless_switch_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/ethernet_item_view"
+            android:background="@drawable/settings_list_item_selector" />
+
+        <include
+            android:id="@+id/wireless_setting_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/wireless_settings_view"
+            android:background="@drawable/settings_list_item_selector"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</com.twowing.routeconfig.wireless.WirelessSettingsView>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/settings_loading_layout"
+    style="@style/wdDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/settings_dialog_all_view" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/settings_loading_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/settings_loading_title"
+            android:textColor="@color/return_bar_text_pressed_color"
+            android:textSize="@dimen/settings_item_title_large_textsize"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/settings_loading_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/settings_loding" />
+
+        <TextView
+            android:id="@+id/settings_loading_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/settings_loading_title"
+            android:textColor="@color/return_bar_text_pressed_color"
+            android:textSize="@dimen/settings_item_title_large_textsize" />
+
+        <Button
+            android:id="@+id/settings_loading_ok"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/settings_bt_selector"
+            android:padding="5dp"
+            android:text="确定"
+            android:textSize="@dimen/settings_item_title_large_textsize"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

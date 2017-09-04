@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="itemtext_bg">#6f000000</color>
+    <color name="gray_tab_txt_color">#ff616161</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="green">#ff6bc03a</color>
+    <color name="gray">#ff808080</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_half">#f0000000</color>
+    <color name="error_transparent_half">#99000000</color>
+    <color name="translucent_background">#000000</color>
+    <color name="listitem_bottom_line">#ff749dc2</color>
+    <color name="beige">#ffae9e7d</color>
+    <color name="bluegreen">#ff5c7f6b</color>
+    <color name="sky_blue">#ff114773</color>
+    <color name="more_input_dialog">#ff0f62cc</color>
+    <!-- 桔黄色 -->
+    <color name="bisque">#ffe4c4</color>
+    <!-- 7.84Settings -->
+    <color name="settings_listview_cacheColorHint">#00ffffff</color>
+    <color name="settings_list_item_title_info">#4b5360</color>
+    <color name="settings_list_item_selector">#606d8a</color>
+
+    <!-- 7.84对话框 -->
+    <color name="settings_dialog_bg">#667fa5</color>
+    <color name="settings_dialog_center_view">#6e89b2</color>
+    <color name="settings_dialog_title_bg">#667fa5</color>
+    <color name="settings_dialog_edittext_bg">#364a69</color>
+    <color name="settings_dialog_line_bg">#5f7596</color>
+    <color name="settings_dialog_center_line_bg">#6e89b2</color>
+    <color name="return_bar_text_pressed_color">#fefefe</color>
+    <color name="settings_list_item_wifi_connected">#00ffba</color>
+    <color name="ethernet_connect_textcolor">#CCFFFF</color>
+
+</resources>
