@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twowing.routeconfig.wifi.WifiListInfoView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_list_info_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <include
+        android:id="@+id/wifi_more_view"
+        layout="@layout/wifi_list_item_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wifi_more_view"
+        android:layout_centerInParent="true" >
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:cacheColorHint="@color/settings_listview_cacheColorHint"
+            android:isScrollContainer="false"
+            android:listSelector="@null"
+            android:focusable="false"
+            android:scrollbars="@null"
+            android:visibility="gone" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/wifi_no_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="没有搜索到更多的设备列表,请检查设备是否正常连接！"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/textview_select"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</com.twowing.routeconfig.wifi.WifiListInfoView>
